@@ -1,0 +1,94 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="WB_Dialogue" ExportPath=/Script/UMGEditor.WidgetBlueprint'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue"'
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=/Script/UMG.WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree' ExportPath=/Script/UMG.WidgetTree'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree"'
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_39" ExportPath=/Script/UMG.CanvasPanel'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree.CanvasPanel_39"'
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree.CanvasPanel_39.CanvasPanelSlot_1"'
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="Dialogue_Sentence" ExportPath=/Script/UMG.TextBlock'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree.Dialogue_Sentence"'
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath=/Script/Engine.EdGraph'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph"'
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph.K2Node_Event_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph.K2Node_Event_1"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph.K2Node_Event_2"'
+      End Object
+   End Object
+   Begin Object Name="WidgetTree" ExportPath=/Script/UMG.WidgetTree'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree"'
+      Begin Object Name="CanvasPanel_39" ExportPath=/Script/UMG.CanvasPanel'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree.CanvasPanel_39"'
+         Begin Object Name="CanvasPanelSlot_1" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree.CanvasPanel_39.CanvasPanelSlot_1"'
+            LayoutData=(Offsets=(Left=9.681702,Top=131.275696,Right=7.485199,Bottom=-57.161705),Anchors=(Minimum=(X=0.165625,Y=0.670370),Maximum=(X=0.833333,Y=0.888889)))
+            Parent=/Script/UMG.CanvasPanel'"WB_Dialogue:WidgetTree.CanvasPanel_39"'
+            Content=/Script/UMG.TextBlock'"WB_Dialogue:WidgetTree.Dialogue_Sentence"'
+         End Object
+         Slots(0)=/Script/UMG.CanvasPanelSlot'"CanvasPanelSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Dialogue_Sentence" ExportPath=/Script/UMG.TextBlock'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:WidgetTree.Dialogue_Sentence"'
+         Text=NSLOCTEXT("[D26CCC07147CA3FC74BAFDA3D1B62011]", "239A26A844EC9AC5191147B15D79E496", "hjtjtt")
+         ColorAndOpacity=(SpecifiedColor=(R=0.000000,G=0.000000,B=0.000000,A=1.000000))
+         Justification=Center
+         Slot=/Script/UMG.CanvasPanelSlot'"WB_Dialogue:WidgetTree.CanvasPanel_39.CanvasPanelSlot_1"'
+         bIsVariable=True
+         DisplayLabel="Dialogue_Sentence"
+      End Object
+      RootWidget=/Script/UMG.CanvasPanel'"CanvasPanel_39"'
+   End Object
+   Begin Object Name="EventGraph" ExportPath=/Script/Engine.EdGraph'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph"'
+      Begin Object Name="K2Node_Event_0" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph.K2Node_Event_0"'
+         EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=3D6DD8834996894DF43FC3A20FE68796
+         CustomProperties Pin (PinId=68D4398F4F342494F03C1D8464DA302D,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2601A11844C2D2440C73938FB092E0D7,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1D36767A4042C98DE3935680002BE7DB,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph.K2Node_Event_1"'
+         EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=208
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=8F5B4D6E4AC9BA6CDB75F99973381127
+         CustomProperties Pin (PinId=94F2702B4663DEBE3426AF9048DFCE24,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C1135CB144E1ECE1799C04AFA48A9DE4,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph.K2Node_Event_2"'
+         EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=416
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=FAC6F9DE48A921C8C2D4E8B6D33E4800
+         CustomProperties Pin (PinId=F1C048F1440F43A39D5C6B832A3ED6B4,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2CB56D824891C5FB7BA589BA8F9AFB57,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E858CDB24C24BD4D45A0228484D4B1B5,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.ScriptStruct'"/Script/SlateCore.Geometry"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A71069A749362FB72A1D5CBF1CFFC817,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat (single-precision)\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=/Script/BlueprintGraph.K2Node_Event'"K2Node_Event_0"'
+      Nodes(1)=/Script/BlueprintGraph.K2Node_Event'"K2Node_Event_1"'
+      Nodes(2)=/Script/BlueprintGraph.K2Node_Event'"K2Node_Event_2"'
+      bAllowDeletion=False
+      GraphGuid=B622329B4415CD73516A4B8C7035F78A
+   End Object
+   WidgetTree="WidgetTree"
+   ParentClass=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=/Script/Engine.EdGraph'"EventGraph"'
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="WB Dialogue"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/FirstPerson/Blueprints/Dialogue/WB_Dialogue.WB_Dialogue:EventGraph")
+   GeneratedClass=/Script/UMG.WidgetBlueprintGeneratedClass'"WB_Dialogue_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=FBA3B9484BBA4D9845E0B5AA58E7B05F
+End Object

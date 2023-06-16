@@ -1,0 +1,26 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BPI_Dialogue" ExportPath=/Script/Engine.Blueprint'"/Game/FirstPerson/Blueprints/Dialogue/BPI_Dialogue.BPI_Dialogue"'
+   Begin Object Class=/Script/Engine.EdGraph Name="Talk" ExportPath=/Script/Engine.EdGraph'"/Game/FirstPerson/Blueprints/Dialogue/BPI_Dialogue.BPI_Dialogue:Talk"'
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionEntry'"/Game/FirstPerson/Blueprints/Dialogue/BPI_Dialogue.BPI_Dialogue:Talk.K2Node_FunctionEntry_0"'
+      End Object
+   End Object
+   Begin Object Name="Talk" ExportPath=/Script/Engine.EdGraph'"/Game/FirstPerson/Blueprints/Dialogue/BPI_Dialogue.BPI_Dialogue:Talk"'
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionEntry'"/Game/FirstPerson/Blueprints/Dialogue/BPI_Dialogue.BPI_Dialogue:Talk.K2Node_FunctionEntry_0"'
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="Talk")
+         bIsEditable=True
+         NodeGuid=6DE3A5D84978AAC05E8B6AAD931D4823
+         CustomProperties Pin (PinId=1ADAD3254E4FB4E2903052A7A2EB6578,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=/Script/BlueprintGraph.K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      GraphGuid=347917E247AFAF23D6EFA6AC4E40F201
+   End Object
+   ParentClass=/Script/CoreUObject.Class'"/Script/CoreUObject.Interface"'
+   BlueprintType=BPTYPE_Interface
+   BlueprintSystemVersion=2
+   FunctionGraphs(0)=/Script/Engine.EdGraph'"Talk"'
+   CategorySorting(0)=""
+   GeneratedClass=/Script/Engine.BlueprintGeneratedClass'"BPI_Dialogue_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=7AA9CC7D4012A167FEC5408CECD18004
+End Object
